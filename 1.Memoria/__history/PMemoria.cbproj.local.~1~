@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2021/10/02 14:06:38.315,=C:\Users\WillyVargasMéndez\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2021/10/02 14:06:38.815,=C:\Users\WillyVargasMéndez\Documents\Embarcadero\Studio\Projects\File1.cpp</Transaction>
+    <Transaction>2021/10/02 14:07:38.779,C:\Users\WillyVargasMéndez\Documents\Embarcadero\Studio\Projects\PMemoriaPCH1.h=C:\Users\WillyVargasMéndez\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2021/10/02 14:07:38.782,C:\Users\WillyVargasMéndez\Documents\Embarcadero\Studio\Projects\PMemoria.cbproj=C:\Users\WillyVargasMéndez\Documents\Embarcadero\Studio\Projects\Project1.cbproj</Transaction>
+    <Transaction>2021/10/02 14:10:51.642,=C:\Users\WillyVargasMéndez\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>2021/10/02 14:11:32.702,C:\Users\WillyVargasMéndez\Documents\Embarcadero\Studio\Projects\console.cpp=C:\Users\WillyVargasMéndez\Documents\Embarcadero\Studio\Projects\File1.cpp</Transaction>
+    <Transaction>2021/10/02 14:11:54.850,C:\Users\WillyVargasMéndez\UAGRM\Auxiliaturas\ED1 Lopez 2-2021\1.Memoria\console.cpp=C:\Users\WillyVargasMéndez\Documents\Embarcadero\Studio\Projects\console.cpp</Transaction>
+    <Transaction>2021/10/02 14:11:56.681,C:\Users\WillyVargasMéndez\UAGRM\Auxiliaturas\ED1 Lopez 2-2021\1.Memoria\PMemoriaPCH1.h=C:\Users\WillyVargasMéndez\Documents\Embarcadero\Studio\Projects\PMemoriaPCH1.h</Transaction>
+    <Transaction>2021/10/02 14:11:58.168,C:\Users\WillyVargasMéndez\UAGRM\Auxiliaturas\ED1 Lopez 2-2021\1.Memoria\PMemoria.cbproj=C:\Users\WillyVargasMéndez\Documents\Embarcadero\Studio\Projects\PMemoria.cbproj</Transaction>
+  </Transactions>
+</BorlandProject>

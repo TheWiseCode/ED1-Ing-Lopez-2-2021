@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2021/10/02 14:13:58.746,=C:\Users\WillyVargasMéndez\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2021/10/02 14:13:59.133,=C:\Users\WillyVargasMéndez\Documents\Embarcadero\Studio\Projects\File1.cpp</Transaction>
+    <Transaction>2021/10/02 14:14:07.908,C:\Users\WillyVargasMéndez\Documents\Embarcadero\Studio\Projects\PMemoriaPCH1.h=C:\Users\WillyVargasMéndez\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2021/10/02 14:14:07.910,C:\Users\WillyVargasMéndez\Documents\Embarcadero\Studio\Projects\PMemoria.cbproj=C:\Users\WillyVargasMéndez\Documents\Embarcadero\Studio\Projects\Project1.cbproj</Transaction>
+    <Transaction>2021/10/02 14:14:13.760,C:\Users\WillyVargasMéndez\Documents\Embarcadero\Studio\Projects\consola.cpp=C:\Users\WillyVargasMéndez\Documents\Embarcadero\Studio\Projects\File1.cpp</Transaction>
+    <Transaction>2021/10/02 14:15:03.222,C:\Users\WillyVargasMéndez\UAGRM\Auxiliaturas\ED1 Lopez 2-2021\1.Memoria\consola.cpp=C:\Users\WillyVargasMéndez\Documents\Embarcadero\Studio\Projects\consola.cpp</Transaction>
+    <Transaction>2021/10/02 14:15:04.808,C:\Users\WillyVargasMéndez\UAGRM\Auxiliaturas\ED1 Lopez 2-2021\1.Memoria\PMemoriaPCH1.h=C:\Users\WillyVargasMéndez\Documents\Embarcadero\Studio\Projects\PMemoriaPCH1.h</Transaction>
+    <Transaction>2021/10/02 14:15:06.413,C:\Users\WillyVargasMéndez\UAGRM\Auxiliaturas\ED1 Lopez 2-2021\1.Memoria\PMemoria.cbproj=C:\Users\WillyVargasMéndez\Documents\Embarcadero\Studio\Projects\PMemoria.cbproj</Transaction>
+    <Transaction>2021/10/02 14:16:17.581,=C:\Users\WillyVargasMéndez\UAGRM\Auxiliaturas\ED1 Lopez 2-2021\1.Memoria\Unit1.cpp</Transaction>
+    <Transaction>2021/10/02 14:16:24.871,C:\Users\WillyVargasMéndez\UAGRM\Auxiliaturas\ED1 Lopez 2-2021\1.Memoria\UMemoria.h=C:\Users\WillyVargasMéndez\UAGRM\Auxiliaturas\ED1 Lopez 2-2021\1.Memoria\Unit1.h</Transaction>
+    <Transaction>2021/10/02 14:16:24.871,C:\Users\WillyVargasMéndez\UAGRM\Auxiliaturas\ED1 Lopez 2-2021\1.Memoria\UMemoria.cpp=C:\Users\WillyVargasMéndez\UAGRM\Auxiliaturas\ED1 Lopez 2-2021\1.Memoria\Unit1.cpp</Transaction>
+    <Transaction>2021/10/02 14:17:02.581,C:\Users\WillyVargasMéndez\UAGRM\Auxiliaturas\ED1 Lopez 2-2021\1.Memoria\Clases\UMemoria.h=C:\Users\WillyVargasMéndez\UAGRM\Auxiliaturas\ED1 Lopez 2-2021\1.Memoria\UMemoria.h</Transaction>
+    <Transaction>2021/10/02 14:17:02.581,C:\Users\WillyVargasMéndez\UAGRM\Auxiliaturas\ED1 Lopez 2-2021\1.Memoria\Clases\UMemoria.cpp=C:\Users\WillyVargasMéndez\UAGRM\Auxiliaturas\ED1 Lopez 2-2021\1.Memoria\UMemoria.cpp</Transaction>
+  </Transactions>
+</BorlandProject>

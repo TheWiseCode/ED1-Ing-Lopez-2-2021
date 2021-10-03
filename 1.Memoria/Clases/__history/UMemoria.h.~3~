@@ -1,0 +1,32 @@
+//---------------------------------------------------------------------------
+
+#ifndef UMemoriaH
+#define UMemoriaH
+//---------------------------------------------------------------------------
+#include <iostream>
+
+using namespace std;
+
+const int MAX = 20;
+const int NULO = -1;
+
+struct NodoM{
+	int dato;
+	string id;
+	int link;
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#endif

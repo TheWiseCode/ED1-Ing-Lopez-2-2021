@@ -5,7 +5,7 @@
 using namespace std;
 
 int main() {
-	CSMemoria m;
+	CSMemoriaZZZ m;
 	do {
 		cout << "1.Crear\n";
 		cout << "2.Pedir espacio\n";

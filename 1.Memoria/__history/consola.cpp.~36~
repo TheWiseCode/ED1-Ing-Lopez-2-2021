@@ -20,19 +20,36 @@ int main() {
 			cout << "Memoria creada\n";
 		}
 		else if (opcion == 2) {
-			strind id;
+			string id;
 			cout << "Introduzca los ids: ";
 			cin.ignore();
 			getline(cin, id);
+			m.new_espacio(id);
 		}
 		else if (opcion == 3) {
+			int dir;
+			cout << "Direccion a liberar: ";
+			cin >> dir;
+			m.delete_espacio(dir);
 		}
 		else if (opcion == 4) {
+			int dir;
+			cout << "Direccion a colocar: ";
+			cin >> dir;
+			string id;
+			cout << "Introduzca un id: ";
+			cin.ignore();
+			getline(cin, id);
+			int valor;
+			cout << "Introduzca el valor: ";
+			cin >> valor;
+            m.poner_dato(dir, id, valor);
 		}
 		else if (opcion == 5) {
-            m.mostrar();
+			m.mostrar();
 		}
 		else if (opcion == 6) {
+			break;
 		}
 
 	}

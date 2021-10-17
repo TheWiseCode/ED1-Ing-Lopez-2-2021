@@ -1,24 +1,19 @@
 //---------------------------------------------------------------------------
 
-#ifndef UMemoriaH
-#define UMemoriaH
+#ifndef UListaPH
+#define UListaPH
 //---------------------------------------------------------------------------
-const int MAX = 20;
-const int NULO = -1;
+#include <iostream>
 
+using namespace std;
 
+struct NodoL{
+	int elemento;
+    NodoL* sig;
+};
 
+class Lista{
 
-
-
-
-
-
-
-
-
-
-
-
+};
 
 #endif

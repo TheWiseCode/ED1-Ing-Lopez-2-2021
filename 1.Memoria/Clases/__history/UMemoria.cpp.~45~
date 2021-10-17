@@ -75,9 +75,9 @@ void CSMemoria::poner_dato(int dir, string id, int valor) {
 
 int CSMemoria::obtener_dato(int dir, string lugar) {
 	int z = dir;
-	id = id.substr(2, id.length() - 2);
+	lugar = lugar.substr(2, lugar.length() - 2);
 	while(z != NULO){
-		if(mem[z].id == id)
+		if(mem[z].id == lugar)
 			return mem[z].dato;
 		z = mem[z].link;
 	}
@@ -99,4 +99,35 @@ int CSMemoria::espacio_ocupado() {
 }
 
 bool CSMemoria::dir_libre(int dir) {
+	int x = libre;
+	bool c = false;
+	while(x != -1 && c == false){
+		if(x == dir)
+			c = true;
+		x = mem[x].link;
+	}
+    return c;
+}
+
+void CSMemoria::mostrar() {
+	string cab = "| DIR |  DATO  |    ID    | LINK |\n";
+	string lin = "+" + string(cab.length() - 3, '-') + "+\n";
+	string out = lin + cab + lin;
+	int edir = 3, edat = 8, eid = 10; // eid lo cambian
+	for (int i = 0; i < MAX; i++) {
+		int rel = edir - to_string(i).length();
+		string dir = " " + string(rel, '0') + to_string(i) + " ";
+		rel = edat - to_string(mem[i].dato).length();
+		string dat = string(rel, ' ') + to_string(mem[i].dato);
+		rel = eid - mem[i].id.length();
+		string id = string(rel, ' ') + mem[i].id;
+		rel = edir - to_string(mem[i].link).length();
+		string lnk = "  " + string(rel, ' ') + to_string(mem[i].link) + " ";
+		out += "|" + dir + "|" + dat + "|" + id + "|" + lnk + "|\n";
+	}
+	out += lin;
+	out += "Libre = " + to_string(libre) + "\n";
+	out += "Espacios libres = " + to_string(espacio_disponible()) + "\n";
+	out += "Espacios ocupados = " + to_string(espacio_ocupado()) + "\n";
+	cout << out;
 }

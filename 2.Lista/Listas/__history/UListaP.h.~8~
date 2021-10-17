@@ -1,35 +1,19 @@
 //---------------------------------------------------------------------------
 
-#ifndef UMemoriaH
-#define UMemoriaH
+#ifndef UListaPH
+#define UListaPH
 //---------------------------------------------------------------------------
 #include <iostream>
 
 using namespace std;
 
-const int MAX = 20;
-const int NULO = -1;
-
-struct NodoM{
-	int dato;
-	string id;
-	int link;
+struct NodoL{
+	int elemento;
+    NodoL* sig;
 };
 
-class CSMemoria{
-
+class ListaP{
+	private:
+    public:
 };
-
-
-
-
-
-
-
-
-
-
-
-
-
 #endif

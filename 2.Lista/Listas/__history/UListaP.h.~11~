@@ -1,0 +1,23 @@
+//---------------------------------------------------------------------------
+
+#ifndef UListaPH
+#define UListaPH
+//---------------------------------------------------------------------------
+#include <iostream>
+
+using namespace std;
+
+struct NodoL{
+	int elemento;
+    NodoL* sig;
+};
+
+class ListaP{
+	private:
+		NodoL* ptrElementos;
+        int longit;
+	public:
+		ListaP();
+
+};
+#endif

@@ -1,0 +1,27 @@
+﻿Compilación iniciada a las 24/10/2021 22:13:45.
+     1>Proyecto "D:\UAGRM\Auxiliaturas\ED1 Lopez 2-2021\3.Polinomio VS\Polinomios\Polinomios\Polinomios.vcxproj" en el nodo 2 (Build destinos).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Polinomio\UPolinomioS.cpp consola.cpp
+         consola.cpp
+         UPolinomioS.cpp
+         Generando código...
+     1>d:\uagrm\auxiliaturas\ed1 lopez 2-2021\3.polinomio vs\polinomios\polinomios\polinomio\upolinomios.cpp(62): warning C4715: 'PolinomioS::coeficiente': no todas las rutas de acceso de control devuelven un valor
+     1>d:\uagrm\auxiliaturas\ed1 lopez 2-2021\3.polinomio vs\polinomios\polinomios\polinomio\upolinomios.cpp(54): warning C4715: 'PolinomioS::grado': no todas las rutas de acceso de control devuelven un valor
+     1>d:\uagrm\auxiliaturas\ed1 lopez 2-2021\3.polinomio vs\polinomios\polinomios\polinomio\upolinomios.cpp(146): warning C4715: 'PolinomioS::exponente': no todas las rutas de acceso de control devuelven un valor
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\UAGRM\Auxiliaturas\ED1 Lopez 2-2021\3.Polinomio VS\Polinomios\Debug\Polinomios.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\UAGRM\Auxiliaturas\ED1 Lopez 2-2021\3.Polinomio VS\Polinomios\Debug\Polinomios.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\UAGRM\Auxiliaturas\ED1 Lopez 2-2021\3.Polinomio VS\Polinomios\Debug\Polinomios.lib" /MACHINE:X86 Debug\UMemoria.obj
+         Debug\consola.obj
+         Debug\UListaP.obj
+         Debug\UListaS.obj
+         Debug\UListaV.obj
+         Debug\UPolinomioL.obj
+         Debug\UPolinomioLS.obj
+         Debug\UPolinomioP.obj
+         Debug\UPolinomioS.obj
+         Debug\UPolinomioV.obj
+         Polinomios.vcxproj -> D:\UAGRM\Auxiliaturas\ED1 Lopez 2-2021\3.Polinomio VS\Polinomios\Debug\Polinomios.exe
+     1>Compilación del proyecto terminada "D:\UAGRM\Auxiliaturas\ED1 Lopez 2-2021\3.Polinomio VS\Polinomios\Polinomios\Polinomios.vcxproj" (Build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:01.37

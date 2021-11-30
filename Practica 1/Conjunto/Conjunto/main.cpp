@@ -3,6 +3,7 @@
 #include "Conjuntos\UConjuntoV.h"
 #include "Conjuntos\UConjuntoP.h"
 #include "Polinomios\UPolinomioL.h"
+#include "Polinomios\UPolinomioTXT.h"
 #include "UPolinomioV1.h"
 #include <math.h>
 #include <string>
@@ -12,14 +13,22 @@ using namespace std;
 void p1();
 void p2();
 void p3();
+void p4();
 float area(PolinomioV1* p);
 
 int main() {
-	p3();
+	p4();
 	system("pause");
 	return 0;
 }
 
+void p4() {
+	PolinomioTXT* p = new PolinomioTXT("D://UAGRM//Auxiliaturas//ED1 Lopez 2-2021//Practica 1//Conjunto//Conjunto//datos.txt");
+	cout << p->numero_terminos() << endl;
+	cout << p->coeficiente(3) << endl;
+	cout << p->exponente(6) << endl;
+	cout << p->to_str() << endl;
+}
 float area(PolinomioV1* p, float a, float b) {
 	int n = p->numero_terminos();
 	float evA = 0, evB = 0;

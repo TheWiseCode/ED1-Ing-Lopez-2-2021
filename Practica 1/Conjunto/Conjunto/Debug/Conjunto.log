@@ -1,10 +1,10 @@
-﻿Compilación iniciada a las 20/11/2021 17:04:40.
+﻿Compilación iniciada a las 28/11/2021 17:24:05.
      1>Proyecto "D:\UAGRM\Auxiliaturas\ED1 Lopez 2-2021\Practica 1\Conjunto\Conjunto\Conjunto.vcxproj" en el nodo 2 (Build destinos).
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
          main.cpp
-     1>d:\uagrm\auxiliaturas\ed1 lopez 2-2021\practica 1\conjunto\conjunto\main.cpp(29): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
-     1>d:\uagrm\auxiliaturas\ed1 lopez 2-2021\practica 1\conjunto\conjunto\main.cpp(30): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+     1>d:\uagrm\auxiliaturas\ed1 lopez 2-2021\practica 1\conjunto\conjunto\main.cpp(38): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+     1>d:\uagrm\auxiliaturas\ed1 lopez 2-2021\practica 1\conjunto\conjunto\main.cpp(39): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\UAGRM\Auxiliaturas\ED1 Lopez 2-2021\Practica 1\Conjunto\Debug\Practica1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\UAGRM\Auxiliaturas\ED1 Lopez 2-2021\Practica 1\Conjunto\Debug\Practica1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\UAGRM\Auxiliaturas\ED1 Lopez 2-2021\Practica 1\Conjunto\Debug\Practica1.lib" /MACHINE:X86 Debug\UConjuntoP.obj
          Debug\UMemoria.obj
@@ -19,10 +19,11 @@
          Debug\UPolinomioS.obj
          Debug\UPolinomioV.obj
          Debug\UListaPD.obj
+         Debug\UPolinomioTXT.obj
          Debug\UPolinomioV1.obj
          Conjunto.vcxproj -> D:\UAGRM\Auxiliaturas\ED1 Lopez 2-2021\Practica 1\Conjunto\Debug\Practica1.exe
      1>Compilación del proyecto terminada "D:\UAGRM\Auxiliaturas\ED1 Lopez 2-2021\Practica 1\Conjunto\Conjunto\Conjunto.vcxproj" (Build destinos).
 
 Compilación correcta.
 
-Tiempo transcurrido 00:00:01.92
+Tiempo transcurrido 00:00:01.31

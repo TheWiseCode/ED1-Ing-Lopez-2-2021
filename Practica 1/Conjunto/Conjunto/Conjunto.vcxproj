@@ -156,6 +156,7 @@
     <ClCompile Include="Polinomios\UPolinomioS.cpp" />
     <ClCompile Include="Polinomios\UPolinomioV.cpp" />
     <ClCompile Include="Listas\UListaPD.cpp" />
+    <ClCompile Include="Polinomios\UPolinomioTXT.cpp" />
     <ClCompile Include="UPolinomioV1.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -171,7 +172,12 @@
     <ClInclude Include="Polinomios\UPolinomioS.h" />
     <ClInclude Include="Polinomios\UPolinomioV.h" />
     <ClInclude Include="Listas\UListaPD.h" />
+    <ClInclude Include="Polinomios\UPolinomioTXT.h" />
     <ClInclude Include="UPolinomioV1.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="datos.txt" />
+    <Text Include="Polinomios\datos.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -57,6 +57,9 @@
     <ClCompile Include="UPolinomioV1.cpp">
       <Filter>Archivos de código fuente</Filter>
     </ClCompile>
+    <ClCompile Include="Polinomios\UPolinomioTXT.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Conjuntos\UConjuntoV.h">
@@ -98,5 +101,12 @@
     <ClInclude Include="UPolinomioV1.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
+    <ClInclude Include="Polinomios\UPolinomioTXT.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Polinomios\datos.txt" />
+    <Text Include="datos.txt" />
   </ItemGroup>
 </Project>

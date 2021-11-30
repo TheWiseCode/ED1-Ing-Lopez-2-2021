@@ -127,5 +127,5 @@ string PolinomioV1::to_str() {
 			r += "+";
 		r += to_string(coef) + "x^" + to_string(exp);
 	}
-	return r + "    " + l->to_str();;
+	return r + "    " + l->to_str();
 }
